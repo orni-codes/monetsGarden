@@ -1,0 +1,19 @@
+{
+  "name": "monet-sgarden",
+  "module": "index.ts",
+  "type": "module",
+  "main": "electron/main.cjs",
+  "private": true,
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  },
+  "dependencies": {
+    "electron": "^45.2.1"
+  }
+}
